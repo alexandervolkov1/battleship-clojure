@@ -42,9 +42,6 @@
   (set (mapcat :cells fleet)))
 
 
-
-    
-
 (comment
   (ship-cells [5 7] 6 :horizontal)
   (valid-ship? (ship-cells [8 7] 4 :vertical))
